@@ -1,0 +1,193 @@
+/* UTILITIES & SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 18%, rgba(196,195,195,1) 30%, white 80%);
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+.flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2.5em;
+    text-decoration: overline;
+    text-align: start;
+    background-color: aqua;
+    padding: 0.4em;
+    margin-top: 10rem;
+    border-radius: 15px;
+    width: max-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    box-shadow: 10px 15px 20px #86f4b9;
+}
+/* HEADER */
+header nav{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 25px 50px black;
+    
+}
+header nav a{
+   display: inline-block;
+   color: #fff;
+   text-align: center;
+   margin-left: 2rem;
+   padding: 1em;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+header nav a:hover {
+    background-color: #16f37d;
+    box-shadow: 10px rgb(80, 236, 13);
+    color: black;
+    border-radius: 15px;
+}
+/* MAIN */
+.top {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15%;
+    right: 5px;
+    background-color: #16f37d;
+    text-align: center;
+    transition: 15s;
+}
+
+.top a:hover {
+    box-shadow: 10px;
+}
+
+#about_me {
+    font-size: 1em;
+    margin-top: 2rem;
+    color: #fff;
+    text-align: justify;
+    padding: 1em;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+main section div h2{
+   color: aqua;
+   font-family: 'Roboto', sans-serif;
+}
+
+main section div p {
+    flex: 2;
+    margin-right: 2em;
+    font-size: large;
+}
+
+main section div img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    flex: 1;
+    border: 1px solid orange;
+    box-shadow: -5px -5px 25px orange;
+}
+
+main section#skills div#len, div#fram{
+ text-align: start;
+}
+main section#skills div h2{
+    font-size: 1.6em;
+    background-color: black;
+    border-radius: 15px;
+    padding: 0.4em;
+}
+
+main section#skills div h3 {
+    display: inline-block;
+    background-color: #86f4b9;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-right: 1.3em;
+    padding: 0.5em;
+    border: 2 solid rgb(12, 11, 11);
+    text-align: center;
+}
+
+main section#exp div.card h2{
+    color: aqua;
+    -webkit-text-stroke: 1px black;
+ }
+
+main section#exp div.card h3, main section#exp div.card h4{
+    text-align: start;
+    padding-left: 2em;
+    font-size: large;
+}
+main section#exp div.card p{
+    text-align: start;
+    padding-left: 2em;
+}
+
+main section#training div.card h2{
+  color: black;
+ }
+
+ main section#contact div{
+    margin-top: 7rem;
+    text-align: start;
+ }
+main section#contact div p{
+    display: block;
+    letter-spacing:  2px;
+    margin-bottom: 1.5em;
+} 
+
+main section#contact div a{
+    text-decoration: none;
+    color: #f60ba4;
+    margin-right: 1.5em;
+    margin-right: 3em;
+} 
+
+main section#contact div a:visited{
+    text-decoration: none;
+    color: #16f37d;
+} 
+
+main section#contact div a:hover{
+    color: #16f37d;
+    text-align: justify;
+    transform: scaleX(2px);
+}
+
+footer {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+    margin-top: 10%;
+    width: 100%;
+ }
